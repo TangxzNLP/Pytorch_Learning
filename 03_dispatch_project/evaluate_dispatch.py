@@ -24,7 +24,7 @@ test_targets_path = 'test_targets.csv'
 test_features = pd.read_csv(test_features_path)
 test_targets = pd.read_csv(test_targets_path)
 
-# 将数据转化为numpy格式, X (16875, 56)
+# 将数据转化为numpy格式, X (504, 56)
 features = test_features.values
 targets = test_targets['cnt'].values
 targets = targets.astype(float)
